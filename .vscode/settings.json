@@ -1,0 +1,21 @@
+{
+    "cucumberautocomplete.steps": [
+        "features/**/*.py"
+    ],
+    "cucumberautocomplete.customParameters": [
+        {
+            "parameter": "(u'",
+            "value": "('"
+        }
+      ],
+    "cucumberautocomplete.syncfeatures": "features/*feature",
+    "cucumberautocomplete.gherkinDefinitionPart": "@(given|when|then|step)\\(",
+    "cucumberautocomplete.strictGherkinCompletion": false,
+    "cucumberautocomplete.strictGherkinValidation": false,
+    "cucumberautocomplete.onTypeFormat": true,
+    "editor.quickSuggestions": {
+        "comments": false,
+        "strings": true,
+        "other": true
+    }
+}
