@@ -1,4 +1,4 @@
-from behave import given, when, then, step  # pylint: disable=no-name-in-module
+from behave import *
 
 @given(u'these things')
 def step_given(context):
